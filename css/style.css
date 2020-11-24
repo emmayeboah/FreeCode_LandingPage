@@ -1,6 +1,9 @@
-#header-img{
-  width: 150px;
+body{
+  font-family: sans-serif;
 }
+
+
+
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -16,9 +19,66 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+
+
+
+.nav-link{
+  padding: 20px;
+  margin: 20px;
+}
+
+#learn-more{
+  text-align: center;
+}
+
+#request-coupon{
+  text-align: center;
+}
+
+
+#buy-on-amazon{
+  text-align: center;
+}
+
+#header{
+  text-align: center;
+}
+#header-img{
+  top: 0;
+  width: 150px;
+}
+
+section{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+.flex-container>div{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+   line-height: 400px;
+  font-size: 14px;
+}
+
+
+ .sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+#header-img{
+  top:0;
+  width: 150px;
+}
+
+#buy-at-online-store{
+  background-color: #cc0000;
 }
